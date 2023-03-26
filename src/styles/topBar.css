@@ -1,0 +1,63 @@
+.topBar{
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%)) ;
+    color: white;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:0;
+    font-weight: bold;
+    padding: 0 20px;
+  }
+  .circle{
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin:  auto;
+  }
+  .circle-text{
+    margin: 0 auto;
+    color: rgb(232, 228, 228);
+    font-size: 15px;
+  }
+.score{
+    font-weight: bold;
+  line-height: 50px;
+  font-size: 30px;
+  color: white;
+}
+.great{
+    line-height: 50px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.remark p{
+    font-weight: 300;
+    color: rgb(232, 228, 228);
+}
+/* @media (min-width:1000px){
+  .topBar{
+    position: relative;
+    width: 20%;
+    padding: 20px;
+    border-radius: 20px;
+  }
+}
+@media (min-width:800px){
+  .topBar{
+    position: relative;
+    width: 40%;
+    padding: 20px;
+    border-radius: 20px;
+  }
+} */
+@media (min-width:501px){
+  .topBar{
+    position: relative;
+    width: 100%;
+    border-radius: 20px;
+  }
+}
